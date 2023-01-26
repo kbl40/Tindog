@@ -11,7 +11,7 @@ function transition() {
         dog = getNewDog()
         render()
         isWaiting = false
-    }, 1000)
+    }, 3000)
 }
 
 function getNewDog() {
