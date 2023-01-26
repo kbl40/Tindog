@@ -4,6 +4,10 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    height: 95vh;
+}
+
 .header,
 .button-container {
     display: flex;
