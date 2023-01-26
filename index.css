@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header,
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.outer-icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.middle-icon {
+    width: 6em;
+    height: 2.75em;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#dog-card {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    margin: 1.5em 0;
+}
+
+.profile-img {
+    object-fit: cover;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.badge {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 9em;
+    /* height: 100%; */
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+    transform: rotate(-30deg);
+}
+
+.info,
+.bio {
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.info {
+    grid-row: -3/-2;
+    grid-column: 1/2;
+    margin-bottom: 0.5em;
+}
+
+.bio {
+    grid-row: -2/-1;
+    grid-column: 1/2;
+    margin-bottom: 2em;
+    margin-top: 0em;
+    color: #B7B7B7;
+}
+
+.end-text {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.button-container {
+    justify-content: center;
+}
+
+
+
+.btn {
+    border-radius: 50%;
+    padding: 1em;
+    margin: 0 1em 1em 1em;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.heart-btn:hover {
+    background-color: #DBFFF4;
+}
+
+.nope-btn:hover {
+    background-color: #FFE7EF;
+}
